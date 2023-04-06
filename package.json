@@ -2,7 +2,7 @@
   "name": "quiz-react-app",
   "private": true,
   "version": "0.0.0",
-  "homepage": "https://Sherzodbek99.github.io/Quizzical",
+  "homepage": "https://Sherzodbek99.github.io/Quiz-react",
   "type": "module",
   "scripts": {
     "predeploy": "npm run build",
