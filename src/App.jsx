@@ -49,7 +49,7 @@ function App() {
   }
 
   catch(error) {
-    console.log(error)
+    console.log("error")
   }
           
 
@@ -94,6 +94,7 @@ function App() {
   }
 
   function handleRestart(){
+      
     setTen(!ten)
     getNewGame()
     

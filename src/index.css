@@ -25,7 +25,7 @@ main {
 
 .start{
   width: 100vw;
-
+  min-height: 96vh;
   display: flex;
   align-items: center;
   flex-direction: column;
@@ -49,7 +49,7 @@ main {
 
 .topImage {
   position: absolute;
-  top: -1vh;
+  top: 0vh;
   right: 0vw;
   margin: 0;
 }
@@ -57,7 +57,7 @@ main {
 .bottomImage {
   margin: 0;
   position: absolute;
-  bottom: -1vh;
+  bottom: 0vh;
   left: 0vw;
 }
 
@@ -218,6 +218,7 @@ input:checked + label
   display: flex;
   flex-direction: column;
   align-items: center;
+  justify-content: center;
   gap: 20px;
   
 }
@@ -226,6 +227,7 @@ input:checked + label
   color: #4D5B9E;
   font-size: 1.6rem;
   margin-top: 0px;
+  
 }
 
 .restartBtn {
@@ -259,6 +261,8 @@ input:checked + label
 
 .answers {
   font-size: 1.4rem;
+  text-align: center;
+  margin: 0;
 }
 
 .givenAnswer, .correctAnswer {
@@ -335,6 +339,29 @@ input:checked + label
     width: 50px;
     height: 50px;
   }
+ 
+  .result-style{
+    font-size: 1.3rem;
+    margin: 0;
+  }
+
+  .restartBtn{
+    font-size: 1.1rem;
+    padding: 8px 16px;
+  }
+
+  .givenAnswers, .correctAnswers {
+    padding: 10px 0;
+  }
+
+  .answers {
+    font-size: 1.1rem
+  }
+
+  .givenAnswer, .correctAnswer {
+    font-size: 0.8rem;
+  }
+
 }
 
 @media (min-width: 851px){
@@ -372,6 +399,18 @@ input:checked + label
 
   label{
     font-size: 1.1rem;
+  }
+
+  .givenAnswers, .correctAnswers {
+    width: 65vw;
+  }
+
+  .givenAnswer, .correctAnswer {
+    font-size: 1.2rem;
+  }
+
+  .incorrectAnswer, .givenCorrectAnswer {
+    padding: 6px 30px;
   }
 }
 
