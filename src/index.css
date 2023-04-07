@@ -294,7 +294,7 @@ input:checked + label
 
 @media (max-width: 850px){
   body{
-    background: #e7dc68;
+    background: #F5F7FB;
     border-bottom: 2vh solid #E0EBFFff;
     border-top: 2vh solid #FFFBD0ff;
     border-right: 3vw solid #E0EBFFff;
@@ -339,7 +339,7 @@ input:checked + label
 
 @media (min-width: 851px){
   body{
-    background: #2ef549;
+    background: #F5F7FB;
     border-bottom: 2vh solid #E0EBFFff;
     border-top: 2vh solid #FFFBD0ff;
     border-right: 1.5vw solid #E0EBFFff;
