@@ -30,7 +30,7 @@ function App() {
     setTimeout(() => {
       setStart(!start)
       getNewGame()  
-    }, 5000);
+    }, 2000);
     
   }
 
